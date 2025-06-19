@@ -1,0 +1,115 @@
+CHECKLIST WEBSITE REST SWIMMING POOL
+=====================================
+
+A. ASSETS YANG DIBUTUHKAN
+------------------------
+1. Favicon & Icons:
+   □ favicon.ico (16x16)
+   □ favicon-16x16.png (16x16)
+   □ favicon-32x32.png (32x32)
+   □ apple-touch-icon.png (180x180)
+   □ android-chrome-192x192.png (192x192)
+   □ android-chrome-512x512.png (512x512)
+
+2. Social Media Images:
+   □ og-image.jpg (1200x630px) - untuk Facebook/LinkedIn
+   □ twitter-image.jpg (1200x600px) - untuk Twitter
+   
+3. Logo:
+   □ logo.png - Logo perusahaan berkualitas tinggi (200x60px)
+   □ logo.svg - Versi vector jika ada
+
+B. INFORMASI YANG DIBUTUHKAN
+---------------------------
+1. Informasi Kontak:
+   □ Alamat lengkap perusahaan
+   □ Nomor telepon/WhatsApp
+   □ Email bisnis
+   □ Jam operasional
+
+2. Social Media:
+   □ URL Facebook page
+   □ URL Instagram profile
+   □ URL Tokopedia store
+   □ URL Shopee store
+
+3. Google Services:
+   □ Google Analytics ID (format: G-XXXXXXXXXX)
+   □ Google Maps API Key (untuk peta di halaman kontak)
+   □ Google Search Console verification file/tag
+
+4. Lokasi:
+   □ Koordinat lokasi bisnis (latitude & longitude)
+   □ Kode pos
+
+C. KONTEN YANG PERLU DIUPDATE
+----------------------------
+1. Gambar Produk:
+   □ Convert semua gambar ke format WebP
+   □ Tambahkan alt text yang deskriptif
+   □ Set width dan height untuk semua gambar
+   □ Optimize ukuran file (<200KB per gambar)
+
+2. Informasi Produk:
+   □ Harga yang akurat
+   □ Deskripsi lengkap
+   □ Spesifikasi teknis
+   □ Link marketplace yang benar
+
+3. Konten SEO:
+   □ Meta description untuk setiap halaman
+   □ Title tag yang optimal
+   □ Header tags (H1, H2, H3) yang terstruktur
+   □ URL yang SEO-friendly
+
+D. TECHNICAL CHECKLIST
+---------------------
+1. Performance:
+   □ Compress semua gambar
+   □ Minify CSS/JS
+   □ Enable GZIP compression
+   □ Set cache headers
+
+2. Security:
+   □ HTTPS setup
+   □ Security headers
+   □ Content Security Policy
+   □ SSL Certificate
+
+3. Analytics:
+   □ Setup Google Analytics
+   □ Setup conversion tracking
+   □ Setup event tracking
+   □ Setup goal tracking
+
+4. Testing:
+   □ Mobile responsiveness
+   □ Cross-browser compatibility
+   □ Form validation
+   □ Loading speed
+   □ Broken links check
+
+E. POST-LAUNCH CHECKLIST
+-----------------------
+1. Submit ke:
+   □ Google Search Console
+   □ Bing Webmaster Tools
+   □ Yandex Webmaster
+   □ Google My Business
+
+2. Monitor:
+   □ Website uptime
+   □ Page load times
+   □ Error rates
+   □ User behavior
+
+3. Backup:
+   □ Database backup
+   □ Files backup
+   □ Automated backup schedule
+
+Notes:
+- Prioritaskan item yang berhubungan dengan user experience
+- Pastikan semua gambar dioptimasi sebelum upload
+- Test website di berbagai device dan browser
+- Backup semua asset dan kode secara regular

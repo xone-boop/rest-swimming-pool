@@ -1,0 +1,22 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://restswimmingpool.com/sitemap.xml
+
+# Prevent indexing of admin or private areas
+Disallow: /admin/
+Disallow: /private/
+Disallow: /api/
+
+# Allow crawling of static assets
+Allow: /*.js$
+Allow: /*.css$
+Allow: /*.png$
+Allow: /*.jpg$
+Allow: /*.gif$
+Allow: /*.svg$
+Allow: /*.ico$
+Allow: /*.woff$
+Allow: /*.woff2$

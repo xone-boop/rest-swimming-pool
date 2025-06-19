@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rest Swimming Pool Favicon Generator</title>
+</head>
+<body>
+    <h2>Favicon Generator for Rest Swimming Pool</h2>
+    <canvas id="favicon" width="512" height="512" style="border: 1px solid #ccc;"></canvas>
+    <br><br>
+    <button onclick="downloadFavicon(32)">Download 32x32</button>
+    <button onclick="downloadFavicon(192)">Download 192x192</button>
+    <button onclick="downloadFavicon(512)">Download 512x512</button>
+
+    <script>
+        // Generate favicon
+        function generateFavicon() {
+            const canvas = document.getElementById('favicon');
+            const ctx = canvas.getContext('2d');
+            
+            // Background gradient
+            const gradient = ctx.createLinearGradient(0, 0, 512, 512);
+            gradient.addColorStop(0, '#0066cc');
+            gradient.addColorStop(1, '#00aaff');
+            ctx.fillStyle = gradient;
+            ctx.fillRect(0, 0, 512, 512);
+            
+            // Add pool shape (rounded rectangle)
+            ctx.fillStyle = 'rgba(255, 255, 255, 0.9)';
+            ctx.beginPath();
+            ctx.roundRect(100, 150, 312, 212, 40);
+            ctx.fill();
+            
+            // Add water effect
+            ctx.fillStyle = 'rgba(0, 170, 255, 0.7)';
+            ctx.beginPath();
+            ctx.roundRect(120, 170, 272, 172, 30);
+            ctx.fill();
+            
+            // Add "RSP" text
+            ctx.fillStyle = '#0066cc';
+            ctx.font = 'bold 120px Arial';
+            ctx.textAlign = 'center';
+            ctx.fillText('RSP', 256, 290);
+            
+            // Add small pool icon
+            ctx.fillStyle = 'white';
+            ctx.font = 'bold 80px Arial';
+            ctx.fillText('🏊', 256, 400);
+        }
+        
+        function downloadFavicon(size) {
+            const originalCanvas = document.getElementById('favicon');
+            const resizedCanvas = document.createElement('canvas');
+            const ctx = resizedCanvas.getContext('2d');
+            
+            resizedCanvas.width = size;
+            resizedCanvas.height = size;
+            
+            ctx.drawImage(originalCanvas, 0, 0, size, size);
+            
+            const link = document.createElement('a');
+            link.download = `favicon-${size}x${size}.png`;
+            link.href = resizedCanvas.toDataURL();
+            link.click();
+        }
+        
+        // Generate on load
+        generateFavicon();
+    </script>
+</body>
+</html>
