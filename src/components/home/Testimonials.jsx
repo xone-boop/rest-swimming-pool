@@ -51,19 +51,6 @@ const Testimonials = () => {
             </div>
           ))}
         </div>
-
-        <div className="mt-16">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-            {[...Array(4)].map((_, index) => (
-              <div
-                key={index}
-                className="bg-white p-8 rounded-lg shadow-md flex items-center justify-center"
-              >
-                <div className="h-12 w-32 bg-gray-200 rounded" />
-              </div>
-            ))}
-          </div>
-        </div>
       </div>
     </section>
   )
